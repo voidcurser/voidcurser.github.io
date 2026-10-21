@@ -3,136 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Despesas - Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Cashin'Up (Despesas), including financial data, optional AI reviews, Google Play billing, and Google AdMob advertising.">
+  <title>Cashin'Up (Despesas) - Privacy Policy</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #222;
-    }
-    h1, h2 { color: #111; }
+    body { font-family: Arial, Helvetica, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.65; color: #222; background: #fff; }
+    h1, h2 { color: #111; line-height: 1.3; }
+    h2 { margin-top: 1.6em; }
+    a { color: #155bb5; }
+    a:focus-visible { outline: 2px solid #155bb5; outline-offset: 3px; }
+    @media (max-width: 600px) { body { margin: 20px auto; } }
   </style>
 </head>
 <body>
+  <h1>Privacy Policy for Cashin'Up (Despesas)</h1>
+  <p><strong>Last updated:</strong> October 21, 2026</p>
 
-<h1>Privacy Policy for Despesas</h1>
+  <p>Cashin'Up, also identified as Despesas in some app and service listings, is a personal finance application for recording income, expenses, budgets, savings, investments, recurring transactions and financial goals. This policy explains what is kept on your device, which optional services involve outside providers, and how advertising privacy choices work.</p>
 
-<p><strong>Last updated:</strong> September 10, 2026</p>
+  <h2>1. Financial records and local storage</h2>
+  <p>Core financial records are stored locally in the app's device storage, including its WebView storage and native preferences where used. You do not need a Cashin'Up account or bank connection to record finances. The app does not currently offer automatic Cashin'Up cloud backup or cross-device financial synchronization.</p>
+  <p>Records may include amounts, dates, categories, financial goals, labels, notes, recurring commitments, asset values and settings. Exported JSON backups are readable files and can remain wherever you save or share them, even after deleting app data.</p>
 
-<p>
-Despesas is a personal finance application designed to help users manage
-expenses, income, budgets, savings, investments, recurring transactions,
-and financial goals.
-</p>
+  <h2>2. Optional AI financial reviews</h2>
+  <p>When you choose to generate or update an AI Financial Review, Cashin'Up sends a structured financial profile through its backend hosted by Cloudflare to OpenAI for processing. This can include monthly financial summaries and history, category and income-source names, budgets, goals, recurring-payment descriptions or notes, net-worth totals and up to three earlier reviews for continuity. User-entered labels or descriptions may contain personal information; the summaries should not be treated as anonymous.</p>
+  <p>Generated reviews are returned to the app and can be saved locally. Simply recording expenses or viewing an existing saved review does not trigger a new AI review. Backend, hosting-provider and AI-provider operational data and retention are separate from your local records and are subject to the relevant providers' practices. AI suggestions are informational, not professional financial, tax, legal or investment advice.</p>
 
-<h2>1. Financial Data</h2>
+  <h2>3. Google Play subscriptions</h2>
+  <p>Google Play handles Premium subscription checkout and payment-card details. Cashin'Up uses Google Play Billing and its backend to verify purchases, acknowledgements and subscription status. Purchase tokens are processed for verification, and the backend stores related purchase-token hashes and subscription-status metadata. These hashes are not necessarily anonymous. Cashin'Up does not request or store your payment-card number through its purchase flow.</p>
 
-<p>
-Financial information entered into Despesas is stored locally on the
-user's device by default.
-</p>
+  <h2>4. Advertising: Google AdMob and privacy choices</h2>
+  <p>The free Android version uses <a href="https://admob.google.com/">Google AdMob</a> to display a banner advertisement on the Overview dashboard. The app checks Premium entitlement and Google's advertising permission status before requesting that banner. Recognized Premium users do not receive the dashboard banner. Google advertising and privacy software may still be present in the installed app.</p>
+  <p>The Google Mobile Ads SDK and advertising partners may collect or process information such as IP address (which can indicate approximate location), device or advertising identifiers, interactions with ads or the app, and technical diagnostics. Such data may be used for ad delivery, measurement, fraud prevention and, where permitted, personalization. Depending on your region and choices, Google and participating advertising vendors may receive this information. Cashin'Up's own advertising integration does not send your financial records or raw payment-notification text to AdMob.</p>
+  <p>Cashin'Up uses Google's User Messaging Platform (UMP) to request and manage advertising privacy choices where required, including in European regions. When available, the message lets you accept, decline or manage advertising-related purposes and vendors. Depending on the applicable rules and permissions, declining personalized advertising does not necessarily mean all ads, SDK activity or network requests stop. Consent-status checks also communicate with Google.</p>
+  <p>When Google requires an in-app privacy-options entry point, you can revisit your choices through <strong>Settings &rarr; About &rarr; Ad privacy</strong>. You can also manage Android advertising preferences in your device settings. Advertising choices are not conditional on buying Premium. For details of Google's practices, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK data disclosure</a>.</p>
 
-<p>
-When a user explicitly requests an AI Financial Review, selected financial
-information required to generate that review is securely transmitted to
-our backend service and to our AI service provider for processing.
-</p>
+  <h2>5. Optional Android notification access</h2>
+  <p>When a Premium user enables Payment Detection and grants Android's special Notification Access, Cashin'Up can read notifications from supported payment apps to identify possible outgoing payments. Android grants broader notification access than the app's supported-source filter uses. The app's detector parses supported notifications on-device; it does not upload or retain their raw text. Pending suggestions can contain a merchant, amount, currency, timestamp and deduplication identifiers. A suggestion becomes a financial expense only if you confirm it.</p>
+  <p>Pending suggestions are limited to 25, with seven-day expiry enforced when the store is accessed or updated; this is not a guarantee of deletion at an exact scheduled time. Payment Detection can be switched off in Cashin'Up, and Notification Access can be revoked in Android settings. Local reminder notifications are a separate feature.</p>
 
-<p>
-This information may include financial amounts, transaction categories,
-income, expenses, budgets, savings, investments, recurring commitments,
-financial goals, and historical financial trends.
-</p>
+  <h2>6. Other recipients and international processing</h2>
+  <p>Depending on the features you use, relevant providers include Cloudflare (backend hosting), OpenAI (requested AI reviews), Google (billing, advertising, privacy choices and certain platform features), and the advertising vendors disclosed in Google's privacy message. If you open an external support or donation page, that service handles the visit under its own policy. We do not sell users' financial records.</p>
+  <p>Service providers may process information outside your country, including outside the European Economic Area. Their processing, retention periods and applicable legal safeguards depend on the actual service and provider arrangements. Financial records stored on your device are not automatically sent to advertising partners by Cashin'Up.</p>
 
-<p>
-The AI Financial Review does not require a Despesas user account, and the
-financial information submitted for the review is not intentionally
-associated with the user's name, email address, or other direct account
-identity.
-</p>
+  <h2>7. Retention, export and deletion</h2>
+  <p>Financial records and saved reviews generally remain in local app storage until you change, reset or remove them. The in-app data-reset function resets financial information but is not a universal deletion of every identifier, purchase record, consent setting or server/provider record. Uninstalling the app does not cancel a Google Play subscription or delete exported backups and information previously processed by external services.</p>
+  <p>Google and other providers retain advertising, purchase and operational information under their applicable policies and service arrangements. Subscription-verification records and some backend operational data are retained separately from the device; Cashin'Up does not currently offer a one-tap deletion of every remote record. For requests concerning data handled by Cashin'Up, contact the address below. You can manage Google advertising choices through the mechanisms described in section 4.</p>
 
-<h2>2. AI Processing</h2>
+  <h2>8. Data security</h2>
+  <p>Cashin'Up uses device access controls and technical protections for certain native features and communications with services. No system can guarantee absolute security. Privacy Mode visually hides certain financial amounts; it does not encrypt all stored financial records, prevent optional AI data transfers, or encrypt exported JSON files.</p>
 
-<p>
-Despesas uses OpenAI technology to generate optional AI Financial Reviews.
-Only information necessary to provide the requested review is submitted
-for processing.
-</p>
+  <h2>9. Your privacy rights</h2>
+  <p>Depending on your location and the relevant law, you may have rights to request access to, correction of, deletion of or restrictions on personal information, as well as to object to certain processing or withdraw applicable consent. Where GDPR applies, additional rights may include data portability and lodging a complaint with a data-protection supervisory authority. Rights may be subject to legal conditions and exceptions.</p>
+  <p>To make a request about Cashin'Up's processing, use the contact address below. Since the app does not have a Cashin'Up user account, we may need limited information to locate the relevant records. Do not send passwords, payment-card details or a complete financial export simply to start a request.</p>
 
-<p>
-AI-generated information is provided for informational purposes and should
-not be considered professional financial, investment, tax, or legal advice.
-</p>
+  <h2>10. Children's privacy</h2>
+  <p>Cashin'Up is a personal finance app and is not designed specifically for children. Advertising and privacy requirements can differ for younger users and by region.</p>
 
-<h2>3. Purchases and Subscriptions</h2>
+  <h2>11. Changes to this policy</h2>
+  <p>We may update this policy when Cashin'Up's features or service providers change. The latest version will be available on this page with an updated revision date.</p>
 
-<p>
-Premium subscriptions are processed through Google Play. Despesas may
-communicate with our backend and Google Play services to verify subscription
-status and determine access to Premium features.
-</p>
-
-<p>
-Payment card and billing information is handled by Google Play and is not
-collected or stored by Despesas.
-</p>
-
-<h2>4. Data Sharing</h2>
-
-<p>
-We do not sell users' personal or financial information.
-</p>
-
-<p>
-Data is shared with service providers only when necessary to operate
-specific features requested by the user, such as AI Financial Review
-processing and Google Play subscription verification.
-</p>
-
-<h2>5. Data Security</h2>
-
-<p>
-Reasonable technical measures are used to protect information transmitted
-between the application, our backend services, and third-party service
-providers.
-</p>
-
-<h2>6. Data Retention</h2>
-
-<p>
-Financial data stored locally remains on the user's device until it is
-modified or deleted by the user or the application is removed.
-</p>
-
-<p>
-AI Financial Reviews may be stored locally on the user's device so that
-previous reviews can be displayed and used to improve the continuity of
-future reviews.
-</p>
-
-<h2>7. Children's Privacy</h2>
-
-<p>
-Despesas is not designed specifically for children. We do not knowingly
-collect personal information from children.
-</p>
-
-<h2>8. Changes to This Policy</h2>
-
-<p>
-This Privacy Policy may be updated as Despesas evolves. Any changes will
-be published on this page with an updated revision date.
-</p>
-
-<h2>9. Contact</h2>
-
-<p>
-For privacy questions or requests, contact:<br>
-<strong>voidcurser.dev@gmail.com</strong>
-</p>
-
+  <h2>12. Contact</h2>
+  <p>For privacy questions or requests, email <a href="mailto:voidcurser.dev@gmail.com">voidcurser.dev@gmail.com</a>.</p>
 </body>
 </html>
